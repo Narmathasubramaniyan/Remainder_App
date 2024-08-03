@@ -1,0 +1,39 @@
+name: remainder
+description: "A new Flutter project."
+publish_to: 'none' # This prevents accidental publishing to pub.dev
+
+# Versioning
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino Icons for iOS style icons
+  cupertino_icons: ^1.0.6
+  
+  # Local notifications package
+  flutter_local_notifications: ^17.2.1+2
+  
+  # Timezone package for scheduling notifications
+  timezone: ^0.9.4
+  
+  # Flutter sound package (if needed)
+  flutter_sound: ^9.9.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints for good coding practices
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets section
+  assets:
+    - assets/  # Ensure you have an 'assets' directory if you plan to use it
